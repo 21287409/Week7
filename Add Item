@@ -1,0 +1,6 @@
+from cashRegister import CashRegister
+
+class TestRegister():
+    cashregister =  CashRegister()
+    cashregister.addItem(5.0)
+    print(cashregister.getTotal())
